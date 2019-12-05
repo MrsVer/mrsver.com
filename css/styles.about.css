@@ -63,9 +63,10 @@ h2 {
   background-color: #ffffff;
 }
 #mrsverphoto {
-	max-width: 37%;
+	max-width: 42%;
 	display:inline-block;
 	align-items: center;
+	padding: 35px 0px 0px 0px;
 }
 @media only screen and (max-width: 900px) {
 	.description {

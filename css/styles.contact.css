@@ -28,7 +28,7 @@ body {
 	border: 25px #744D12;
 	margin: 0 auto;
 }
-#logo:hover{
+#logo:hover {
 	transform:rotate(360deg);
 	transition: 0.8s;
 	margin: 0 auto;
@@ -44,17 +44,33 @@ body {
 	line-height: 7vh;
 	margin: 0 auto;
 }
-.main-container {
-	background-color:#FF9300;
-}
 h2 {
 	text-align: center;
-	font-size: 26px;
+	font-size: 30px;
+	background-color:#ffffff;
 }
- #contactform div {
-   top: 50%;
-   left: 50%;
+.flex-container {
+  display: flex;
+  background-color: #FF9300;
+	align-items: center;
+	padding: 50px;
 }
+.flex-container > div {
+	margin: 20px;
+}
+#contactform {
+	font-size: 30px;
+}
+.mailicon {
+	background-color: #FF9300;
+	padding-left: 140px;
+}
+@media only screen and (max-width: 600px) {
+	.description {
+		width: 100%
+	}
+}
+
 .endofthepage {
 	background: #744D12;
 	text-align: center;
@@ -64,3 +80,4 @@ h2 {
 .endofthepage a {
 	color: #ffffff;
 }
+.

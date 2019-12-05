@@ -31,73 +31,66 @@
 
 	<h2>Contact me</h2>
 
-	<form id="contactform" action="https://postmail.invotes.com/send"
-	    method="post" id="email_form">
+  <div class="flex-container">
+    <div>
+    <form id="contactform" action="https://postmail.invotes.com/send"
+      method="post" id="email_form">
+      <div  id="youremail">
+        <input type="email" size="75" name="reply_to" placeholder="Your Email" />
+      </div>
+      <br>
+      <div  id="subject">
+        <input type="text" size="75" name="subject" placeholder="Subject" font size="30px" />
+      </div>
+      <br>
+      <div  id="message">
+        <textarea name="text" rows="12" cols="75" placeholder="Message"></textarea>
+      </div>
+      <br>
+      <input type="hidden" name="access_token" value="vkvcgopczhxgrrklxg0syto8" />
 
-			<div  id="youremail">
-				<input type="email" size="55" name="reply_to" placeholder="Your Email" />
-			</div>
-<br>
-			<div  id="subject">
-	    	<input type="text" size="55" name="subject" placeholder="Subject" />
-			</div>
-<br>
-			<div  id="message">
-	    	<textarea name="text" rows="12" cols="55" placeholder="Message"></textarea>
-			</div>
-<br>
-			<input type="hidden" name="access_token" value="vkvcgopczhxgrrklxg0syto8" />
-	      <!-- return urls can be fully qualified -OR-
-	         start with / for root relative -OR-
-	         start with . for url relative -->
-	    <input type="hidden" name="success_url" value="https://mrsver.com/contact.html?message=Thank%20you" />
-	    <input type="hidden" name="error_url" value="https://mrsver.com/contact.html?message=Something%20went%20wrong." />
-	    <!-- set the reply-to address -->
-	    <!-- <input type="text" name="reply_to"
-	                placeholder="Your Email" /> -->
+      <input type="hidden" name="success_url" value="https://mrsver.com/contact.html?message=Thank%20you" />
+      <input type="hidden" name="error_url" value="https://mrsver.com/contact.html?message=Something%20went%20wrong." />
 
-	    <!-- to append extra fields, use the extra_ prefix.
-	        Entries will be appended to your message body. -->
-	    <!-- <input type="text" name="extra_phone_number"
-	                placeholder="Phone Number" /> -->
+      <div><input id="submit_form" type="submit" value="Send" /></div>
+     </form>
+      <br>
+      <p id='message' style="display:none"></p>
 
-	    <!-- to split your message into 160 chars
-	         for an sms gateway -->
-	    <!-- <input type="hidden"
-	                name="sms_format" value="true" /> -->
+       <script>
+      var submitButton = document.getElementById("submit_form");
+      var form = document.getElementById("email_form");
+      form.addEventListener("submit", function (e) {
+          setTimeout(function() {
+              submitButton.value = "Sending...";
+              submitButton.disabled = true;
+          }, 1);
+         });
+            function getParameterByName(name, url) {
+                 if (!url) url = window.location.href;
+                    name = name.replace(/[\[\]]/g, '\\$&');
+      var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+          results = regex.exec(url);
+      if (!results) return null;
+      if (!results[2]) return '';
+      return decodeURIComponent(results[2].replace(/\+/g, ' '));
+    }
+      var msg = getParameterByName('message');
+      if (msg!=null) {
+          document.getElementById('message').innerHTML = msg;
+          document.getElementById('message').style.display="block";
+      }
+      </script>
+      </div>
 
-	    <div><input id="submit_form" type="submit" value="Send" /></div>
-	</form>
-	<br>
-	<p id='message' style="display:none"></p>
-	<!-- optional, prevents the submit button from being pressed more than once -->
-	<script>
-	    var submitButton = document.getElementById("submit_form");
-	    var form = document.getElementById("email_form");
-	    form.addEventListener("submit", function (e) {
-	        setTimeout(function() {
-	            submitButton.value = "Sending...";
-	            submitButton.disabled = true;
-	        }, 1);
-	    });
-			function getParameterByName(name, url) {
-			if (!url) url = window.location.href;
-			name = name.replace(/[\[\]]/g, '\\$&');
-			var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-					results = regex.exec(url);
-			if (!results) return null;
-			if (!results[2]) return '';
-			return decodeURIComponent(results[2].replace(/\+/g, ' '));
-	}
-			var msg = getParameterByName('message');
-
-
-			if (msg!=null) {
-					document.getElementById('message').innerHTML = msg;
-
-					document.getElementById('message').style.display="block";
-			}
-	</script>
+      <div>
+        <div class="mailicon">
+          <h1 class="animated lightSpeedIn">
+            <img src="images/icons/mail/mail.white.png" width="70%" height="70%"alt="contact" >
+          </h1>
+        </div>
+      </div>
+    </div>
 
 	<div class="endofthepage">
     hello footer
