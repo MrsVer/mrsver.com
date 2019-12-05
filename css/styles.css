@@ -52,15 +52,15 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size:cover;
-	height: 600px;
+	height: 650px;
 }
 #welcomeblocktext {
-	top: 37%;
     position: absolute;
 		text-align: center;
-    padding: 10px 10px 10px 90px;
     background: -webkit-linear-gradient(bottom,#000000,rgba(116,77,18, 0.2));
     color: #ffffff;
+		margin: 35px;
+		margin-top: 250px;
 }
 #text1 {
 	font-size: 20px;
@@ -83,11 +83,11 @@ body {
 	display: block;
 	text-align: center;
 	font-style: italic;
-	font-size: 20px;
+	font-size: 18px;
 	max-width:400px;
 	width: 90%;
 	margin: auto;
-	padding-top: 90px;
+	padding-top: 130px;
 }
 .centeredtext {
 	color: #ffffff;
@@ -102,7 +102,7 @@ body {
 	align-items: flex-end;
 	justify-content: center;
 	padding: 15px;
-	margin: 80px;
+	margin: 40px;
 	background-color:#ffffff;
 	border-radius:15px;
 }
@@ -192,8 +192,10 @@ img {
 	margin: 0 auto;
 }
 button {
-	background-color: lightgrey;
+	background-color:  #ffffff;
 	position:relative;
+	border-color: #744D12;
+	border-width: 2px;
 	border-radius: 88px;
 	box-shadow: 1px 1px;
 	padding: 10px 24px;
@@ -201,6 +203,8 @@ button {
 	text-decoration: none;
 	display: block;
 	font-size: 16px;
+	font-family: arial;
+	font-color:#ffffff;
 	cursor: pointer;
 	justify-content: center;
 	margin: auto;
@@ -209,20 +213,17 @@ button {
 	margin: 0 auto;
 }
 button:hover {
-	background-color: #744D12;
-	border: none;
-	font: white;
 	font-weight: bold;
 	font-size: 18px;
 	transition : 0.2s;
 	cursor : pointer;
 }
 button:a {
-	color: #FF9300;
+	color: #744D12;
 	margin: 0 auto;
 }
 button:hover a {
-	color: #ffffff;
+	color: #744D12;
 	font-weight: bold;
 }
 .endofthepage {
