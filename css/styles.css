@@ -160,6 +160,7 @@ html {
 }
 .myfavoritescard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	text-align: center;
 }
 .myfavoritescontainer {
 	background: #ffffff;
@@ -174,6 +175,11 @@ html {
   color: #FF9300;
 	font-weight: bold;
 }
+
+.latestvideo {
+	display: inline-block;
+}
+
 img {
 	position:relative;
 	display: block;
