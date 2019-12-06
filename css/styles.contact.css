@@ -40,8 +40,8 @@ body {
 	border: 25px #744D12;
 }
 .menuitems {
-	min-height: 7vh;
-	line-height: 7vh;
+	min-height: 8vh;
+	line-height: 8vh;
 	margin: 0 auto;
 }
 h2 {
@@ -58,16 +58,18 @@ h2 {
 .flex-container > div {
 	margin: 20px;
 }
-#contactform {
-	font-size: 30px;
+
+input, textarea {
+	font-size: 18px;
 }
+
 .mailicon {
 	background-color: #FF9300;
 	padding-left: 140px;
 }
 @media only screen and (max-width: 600px) {
 	.description {
-		width: 100%
+		width: 100%;
 	}
 }
 
@@ -80,4 +82,3 @@ h2 {
 .endofthepage a {
 	color: #ffffff;
 }
-.

@@ -40,8 +40,8 @@ body {
 	border: 25px #744D12;
 }
 .menuitems {
-	min-height: 7vh;
-	line-height: 7vh;
+	min-height: 8vh;
+	line-height: 8vh;
 	margin: 0 auto;
 }
 .main-container {
@@ -51,6 +51,22 @@ h2 {
 	text-align: center;
 	font-size: 30px;
 	background-color:#ffffff;
+}
+.recipiephoto  img{
+	width: 33%;
+}
+.recipiephoto  img:hover {
+	opacity: 0.5;
+}
+.recipiephoto  p {
+	display: none;
+	position: absolute;
+	top: 50%;
+
+	color: #ffffff;
+}
+.recipiephoto:hover  p {
+	display: block;
 }
 .endofthepage {
 	background: #744D12;
