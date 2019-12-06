@@ -74,19 +74,52 @@ p {
   padding: 20px;
 }
 #foodphoto {
-	width: 32%;
+	width: 35%;
 }
 #foodphoto img {
 	width: 100%;
 }
-#ingredients {
+#ingredientscontainer {
 width: 20%;
 }
-#ingredients h2 {
+#ingredientscontainer h2 {
 text-align: left;
 }
-#method {
+#methodcontainer {
 width: 40%;
+}
+.ingredients li {
+	line-height: 1.5em;
+}
+ul.a {
+  list-style-type: circle;
+}
+ol {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+}
+ol li {
+  counter-increment: my-awesome-counter;
+}
+ol li::before {
+  content: counter(my-awesome-counter) ". ";
+  color: #FF9300;
+  font-weight: bold;
+	font-size: 22px;
+}
+@media only screen and (max-width: 900px) {
+	#foodphoto {
+		width: 100%;
+	}
+	#ingredientscontainer {
+		width: 100%;
+	}
+	#methodcontainer {
+		width: 100%;
+	}
+}
+.video {
+margin: 20px;
 }
 .endofthepage {
 	background: #744D12;
