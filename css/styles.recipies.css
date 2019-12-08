@@ -83,9 +83,10 @@ h2 {
   transition: .2s ease;
 }
 .container:hover .overlay {
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
+  -webkit-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+
 }
 .text {
   color: white;
@@ -116,4 +117,5 @@ h2 {
 }
 .endofthepage a {
 	color: #ffffff;
+	text-decoration: none;
 }
