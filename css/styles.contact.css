@@ -36,22 +36,21 @@ h2 {
 	background-color:#ffffff;
 }
 .flex-container {
-  display: flex;
+  display:flex;
   background-color: #FF9300;
 	align-items: center;
-	padding: 50px;
+	margin: 20px;
 }
 .flex-container > div {
 	margin: 20px;
 }
-
 input, textarea {
 	font-size: 18px;
-}
 
+}
 .mailicon {
 	background-color: #FF9300;
-	padding-left: 140px;
+
 }
 @media only screen and (max-width: 600px) {
 	.description {
