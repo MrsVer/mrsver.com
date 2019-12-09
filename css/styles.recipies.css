@@ -5,44 +5,30 @@ body {
 	font-family: arial;
 	max-width: 1200px;
 }
-#navbar {
-	overflow: hidden;
+.navbar {
 	background-color: #FF9300;
-	display: block;
-	margin: 0 auto;
+	max-width: 1200px;
+	margin: auto;
 }
 #navbar a {
-	float: left;
-	display:block;
 	color: #ffffff;
-	text-align: center;
-	border: 25px #744D12;
 	text-decoration: none;
 	font-size: 22px;
-	padding: 10px 14px;
-	margin: 0 auto;
+	padding: 5px 14px;
+	float: right;
 }
-#navbar a.menuitems:hover {
+#navbar a.nav-link:hover {
 	color: #744D12;
 	background-color: #ffffff;
-	border: 25px #744D12;
-	margin: 0 auto;
 }
 #logo:hover{
 	transform:rotate(360deg);
 	transition: 0.8s;
-	margin: 0 auto;
 }
-#menuitems-container {
-	float: right;
-	margin-right: 10%;
-	margin: 0 auto;
-	border: 25px #744D12;
-}
-.menuitems {
-	min-height: 8vh;
-	line-height: 8vh;
-	margin: 0 auto;
+
+.nav-link {
+	min-height: 7vh;
+	line-height: 7vh;
 }
 .main-container {
 	background-color:#FF9300;
