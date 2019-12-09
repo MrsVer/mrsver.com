@@ -2,6 +2,7 @@ body {
 	background-color:#ffffff;
 	color: #744D12;
 	margin: 0 auto;
+	font-size: 18px;
 	font-family: arial;
 	max-width: 1200px;
 }
@@ -60,30 +61,13 @@ body {
 	color:#FF9300;
 	font-weight: bold;
 }
-.chefhat {
-	background-image: url("../images/icons/chefhat-white.png");
-	min-height: 480px;
-	background-position: center;
-	background-repeat: no-repeat;
-	position: relative;
-	background-color: #FF9300;
-}
-.chefhattext {
-	color:#744D12;
-	display: block;
-	text-align: center;
-	font-style: italic;
-	font-size: 18px;
-	max-width:400px;
-	width: 90%;
-	margin: auto;
-	padding-top: 130px;
-}
+
 .centeredtext {
 	color: #ffffff;
 	text-align: center;
 	font-size: 22px;
-	margin: -20px auto;
+	margin: 0 auto;
+	padding: 10px;
 	background-color: #FF9300;
 }
 .categories {
@@ -91,16 +75,13 @@ body {
 	display: flex;
 	align-items: flex-end;
 	justify-content: center;
-	padding: 15px;
-	margin: 40px;
 	background-color:#ffffff;
-	border-radius:15px;
+	padding: 20px;
 }
 .categories a {
 	text-decoration: none;
 	font-size: 16px;
 	color: #FF9300;
-	margin: 0 auto;
 }
 .categories a:hover {
 	color: #744D12;
@@ -109,19 +90,16 @@ body {
 	font-weight: bold;
 	transform:scale(1.1);
 	transition: 0.8s;
-	margin: 0 auto;
 }
 #main:hover {
 	font-weight: bold;
 	transform:scale(1.1);
 	transition: 0.8s;
-	margin: 0 auto;
 }
 #desserts:hover {
 	font-weight: bold;
 	transform:scale(1.1);
 	transition: 0.8s;
-	margin: 0 auto;
 }
 .myfavorites {
 	align-items: center;
@@ -166,6 +144,7 @@ html {
 
 .latestvideo {
 	display: inline-block;
+
 }
 
 img {
@@ -176,29 +155,43 @@ img {
 	margin: 0 auto;
 	overflow: auto;
 }
-.parallax {
-	background-image:  url("../images/ffffff.jpg");
-	min-height: 20px;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
+
 .myfavorites {
 	align-items: center;
 	margin: 0 auto;
 }
+.chefhat {
+	background-image: url("../images/icons/chefhat-white.png");
+	min-height: 480px;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	background-color: #FF9300;
+}
+.chefhattext {
+	color:#744D12;
+	display: block;
+	text-align: center;
+	font-style: italic;
+
+	max-width:400px;
+	width: 90%;
+	margin: auto;
+	padding-top: 130px;
+}
+h3 {
+	font-size: 18px;
+	line-height: 2em;
+}
 button {
-	background-color:  #ffffff;
+	background-color: rgba(116, 77, 18, 0.6);
 	border-color: #744D12;
 	border-width: 2px;
-	border-radius: 88px;
-	box-shadow: 1px 1px;
-	padding: 10px 24px;
+	border-radius: 100px;
+	box-shadow: 0.5px 0.5px;
+	padding: 10px 20px;
 	text-align: center;
 	display: block;
-	font-size: 16px;
-	font-color:#ffffff;
 	cursor: pointer;
 	justify-content: center;
 	margin: auto;
@@ -206,13 +199,16 @@ button {
 	transition: 0.6s ease;
 	margin: 0 auto;
 }
+button:hover {
+	background-color: #744D12;
+}
 button a {
-	color: #744D12;
+	color: #ffffff;
 	margin: 0 auto;
 	text-decoration:none;
 }
 button a:hover {
-	color: #744D12;
+	color: #ffffff;
 	font-weight: bold;
 }
 .endofthepage {
