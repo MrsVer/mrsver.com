@@ -54,11 +54,10 @@ h2 {
 }
 input, textarea {
 	font-size: 18px;
-
 }
 .mailicon {
 	background-color: #FF9300;
-
+	padding-left: 150px;
 }
 @media only screen and (max-width: 600px) {
 	.description {
