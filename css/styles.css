@@ -143,10 +143,6 @@ html {
 	font-weight: bold;
 }
 
-.latestvideo {
-	display: inline-block;
-}
-
 img {
 	position:relative;
 	display: block;
@@ -160,6 +156,20 @@ img {
 	align-items: center;
 	margin: 0 auto;
 }
+
+.latestvideo {
+	display: inline-block;
+}
+
+.youtubewrap{
+  
+}
+.row {
+	padding: 15px;
+}
+
+
+
 .chefhat {
 	background-image: url("../images/icons/chefhat-white.png");
 	min-height: 480px;
