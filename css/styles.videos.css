@@ -25,7 +25,9 @@ body {
 	transform:rotate(360deg);
 	transition: 0.8s;
 }
-
+.dropdown-menu {
+	background-color: #FF9300;
+}
 .nav-link {
 	min-height: 7vh;
 	line-height: 7vh;
@@ -33,10 +35,13 @@ body {
 .main-container {
 	background-color:#FF9300;
 }
-h1 {
-	text-align: center;
-	font-size: 28px;
-	color: #744D12;
+
+	h1 {
+		text-align: center;
+		font-size: 30px;
+		background-color:#ffffff;
+		font-weight: bold;
+	}
 }
 h2 {
 	text-align: center;

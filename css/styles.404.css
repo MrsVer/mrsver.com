@@ -25,10 +25,12 @@ body {
 	transform:rotate(360deg);
 	transition: 0.8s;
 }
-
 .nav-link {
 	min-height: 7vh;
 	line-height: 7vh;
+}
+.dropdown-menu {
+	background-color: #FF9300;
 }
 .main-container {
 	background-color:#FF9300;

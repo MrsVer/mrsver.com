@@ -6,6 +6,21 @@ body {
 	font-family: arial;
 	max-width: 1200px;
 }
+
+h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+h3 {
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 2em;
+}
+h4 {
+	font-size: 18px;
+	line-height: 2em;
+}
+
 .navbar {
 	background-color: #FF9300;
 	max-width: 1200px;
@@ -67,7 +82,7 @@ body {
 .centeredtext {
 	color: #ffffff;
 	text-align: center;
-	font-size: 22px;
+	font-size: 24px;
 	margin: 0 auto;
 	padding: 10px;
 	background-color: #FF9300;
@@ -163,14 +178,9 @@ img {
 	display: inline-block;
 }
 
-.youtubewrap{
-
-}
 .row {
 	padding: 15px;
 }
-
-
 
 .chefhat {
 	background-image: url("../images/icons/chefhat-white.png");
@@ -191,10 +201,7 @@ img {
 	margin: auto;
 	padding-top: 130px;
 }
-h3 {
-	font-size: 18px;
-	line-height: 2em;
-}
+
 button {
 	background-color: rgba(116, 77, 18, 0.6);
 	border-color: #744D12;
@@ -222,6 +229,7 @@ button a {
 button a:hover {
 	color: #ffffff;
 	font-weight: bold;
+	text-decoration: none;
 }
 .endofthepage {
 	background: #744D12;
