@@ -82,6 +82,7 @@ body {
 	text-decoration: none;
 	font-size: 16px;
 	color: #FF9300;
+	line-height: 1em;
 }
 .categories a:hover {
 	color: #744D12;
@@ -144,7 +145,6 @@ html {
 
 .latestvideo {
 	display: inline-block;
-
 }
 
 img {
