@@ -59,27 +59,25 @@ p {
 	text-align: justify;
 	line-height: 1em;
 }
-.photoandtextblock {
-	display: flex;
-}
-.photoandtextblock > div {
-  margin: 10px;
-  padding: 20px;
-}
 #foodphoto {
 	width: 35%;
+	display: inline-block;
+	vertical-align: top;
 }
 #foodphoto img {
 	width: 100%;
 }
 #ingredientscontainer {
-width: 20%;
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
 }
 #ingredientscontainer h2 {
 text-align: left;
 }
 #methodcontainer {
-width: 40%;
+	display: inline-block;
+	width: 40%;
 }
 .ingredients li {
 	line-height: 1.5em;
@@ -103,12 +101,25 @@ ol li::before {
 @media only screen and (max-width: 900px) {
 	#foodphoto {
 		width: 100%;
+		display: block;
 	}
 	#ingredientscontainer {
 		width: 100%;
+		display: block;
+		text-align: left;
+		padding-top: 10px;
+	}
+	#ingredientscontainer ul{
+		margin: auto;
+		width: 30%;
+	}
+	#ingredientscontainer h2,h3{
+		text-align: center;
 	}
 	#methodcontainer {
 		width: 100%;
+		display: block;
+		padding-top: 10px;
 	}
 }
 .video {
