@@ -4,7 +4,7 @@
 <html>
 <body>
 
-Gluten free recipies website with videos. Everything, including website, photos and videos created by Mrs Ver.
+Gluten free recipes website with videos. Everything, including website, photos and videos created by Mrs Ver.
 
 Domain: https://mrsver.com
 Github page:https://mrsver.github.io/mrsver/
@@ -14,7 +14,7 @@ This is a HTML website with CSS, but you can find some script on the site as wel
 I used the following:
 <ul>
     <li>Bootstrap for the navbar.</li>
-    <li>Google Alalitics for the statistic.</li>
+    <li>Google Analitics for the statistic.</li>
     <li>Youtube and bootstap for the videos.</li>
     <li>For the animations: https://daneden.github.io/animate.css/</li>
     <li>For the contact form: https://postmail.invotes.com/</li>
